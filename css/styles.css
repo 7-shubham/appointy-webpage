@@ -1,239 +1,236 @@
-.container-fluid{
-
-     padding: 7% 70%
+.container-fluid {
+  padding: 7% 70%
 }
 
-#button1{
+.containerapp {
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemapp {
+  background-color: white;
+  height: 280px;
+  width: 500px;
+  margin: 10px;
+  padding: 3px;
   border-radius: 20px;
 }
 
-#buttoninfo{
+.containerapp1{
 
-     border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.navbar{
+.itemamd{
 
-     padding-bottom: 6px;
-}
-
-.nav-item{
-
-     padding: 0 11px;
-}
-
-#button2{
-
+    justify-content: flex-start;
+    border: 0.6px solid black;
     border-radius: 20px;
-
+    height: 350px;
+    margin: 130px;
+    width: 400px;
 }
 
-#features{
-
-     padding: 2% 18%;
-     text-align: center;
-
+#button1 {
+  border-radius: 20px;
+  background-color: #e93b81;
 }
 
-.card{
-
-   width: 18rem;
+#buttoninfo {
+  border-radius: 20px;
+  background-color: #e93b81;
 }
 
-.pricing-col{
+.navbar {
+  padding-bottom: 6px;
+}
 
+.nav-item {
+  padding: 0 11px;
+}
+
+#button2 {
+  border-radius: 20px;
+  background-color: #e93b81;
+}
+
+#features {
+  padding: 2% 18%;
+  text-align: center;
+}
+
+.card {
+  width: 18rem;
+}
+
+.pricing-col {
   padding: 3% 2%;
   width: 18%;
 }
 
-
-#cta{
-
-  text-align:center;
-  padding:9% 25%;
+#cta {
+  text-align: center;
+  padding: 9% 25%;
 }
 
-
-#features1{
-
-   padding: 5% 15%
+#features1 {
+  padding: 5% 15%
 }
 
-.features-box{
-
-      text-align: center;
-      padding: 0%;
+.features-box {
+  text-align: center;
+  padding: 0%;
 }
 
-#testimonials{
-
-  background-color:#afb9c8;
-
+#testimonials {
+  background-color: #afb9c8;
 }
 
-
-.container-fluid1{
-
-    padding: 6% 10%;
-
+.container-fluid1 {
+  padding: 6% 10%;
 }
 
-#cta1{
-
-    text-align: center;
-    padding: 4% 24%
-
+#cta1 {
+  text-align: center;
+  padding: 4% 24%
 }
 
-#cta2{
-
-      text-align: center;
-      padding: 9% 18%
-
+#cta2 {
+  text-align: center;
+  padding: 9% 18%
 }
 
-.features-boxes{
-
-     text-align:center;
-     padding:7%;
+.features-boxes {
+  text-align: center;
+  padding: 7%;
 }
 
-#button4{
-
-   border-radius: 20px;
+#button4 {
+  border-radius: 20px;
 }
 
-#cta3{
-
-     text-align: center;
-
-     padding: 5% 18%;
+#cta3 {
+  text-align: center;
+  padding: 5% 18%;
 }
 
-#cta4{
-
-     text-align: center;
-     padding: 5% 45%;
-     border-radius: 50px;
+#cta4 {
+  text-align: center;
+  padding: 5% 45%;
+  border-radius: 50px;
 }
 
-#cta5{
-
-     text-align: center;
-     padding: 100px;
+#cta5 {
+  text-align: center;
+  padding: 100px;
 }
 
-.pricing-col1{
-
-      padding: 3% 2%;
-
-      width: 18%;
-
+.pricing-col1 {
+  padding: 3% 2%;
+  width: 18%;
 }
 
-.image1{
-
-   position:relative;
+.image1 {
+  position: static;
 }
 
-image11{
-
-    position: absolute;
+image11 {
+  position: absolute;
 }
 
-#press{
-
-     text-align: center;
+#press {
+  text-align: center;
 }
 
-.press-logo{
-width: 12%;
-margin: 20px 20px 70px;
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 70px;
 }
 
-#lower-info{
-
-     text-align: center;
-     background-color:#afb9c8;
-     padding-bottom: 4%;
+#lower-info {
+  text-align: center;
+  background-color: #afb9c8;
+  padding-bottom: 10%;
 }
 
-#features2{
-
-     padding: 10% 15%;
+#features2 {
+  padding: 10% 15%;
 }
 
-#cta6{
-
-     text-align: center;
-     padding: 5% 15%;
+#cta6 {
+  text-align: center;
+  padding: 5% 15%;
 }
 
-#cta7{
-
-    text-align: center;
-    padding: 1% 1%;
+#cta7 {
+  text-align: center;
+  padding: 1% 1%;
 }
 
-#button25{
-
-    border-radius: 20px;
+#button25 {
+  border-radius: 20px;
+  background-color: #e93b81;
 }
 
-#footer{
-
+#footer {
   padding: 8% 15%;
   text-align: center;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
-      color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
-    width: 100px;
+  color: #ffffff;
+  width: 100px;
 }
+
 .nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
 }
 
 ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
+
 .social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: white;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
 }
