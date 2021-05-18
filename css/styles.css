@@ -177,16 +177,16 @@ image11 {
 }
 
 #footer {
-  padding: 8% 15%;
+  padding: 10% 15%;
   text-align: center;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-  color: #ffffff;
+  color: black;
   width: 100px;
 }
 
@@ -225,11 +225,11 @@ ul, ol {
 .nav-list li a:before {
   content: "\f14f";
   font: 400 21px/1 "Material Design Icons";
-  color: white;
+  color: black;
   display: inline-block;
   vertical-align: baseline;
   margin-left: -28px;
-  margin-right: 7px;
+  margin-right: 8px;
   opacity: 0;
   visibility: hidden;
   transition: .22s ease;
